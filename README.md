@@ -68,6 +68,7 @@ _Note_: `x_seq` (you can find it in `tests/files`, it's just the output of `seq 
 |9  |34418    | 27631|
 
 Still, _for this particular file_, `gzip.sh` performs better (compression-wise only, of course) than `gzip` on average and best/worst case (not really anything to be proud of; just a simple curiosity).
+Full results for all files with all compression types and levels are available in the file `results.txt`.
 
 ### How do I know that it produces correct results?
 

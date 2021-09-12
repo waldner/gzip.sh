@@ -1,0 +1,1764 @@
+START: gzip.sh is ../gzip.sh, files dir is files, rand is 12771
+- Testing files/artificl_aaa.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/artificl_aaa.txt: original size 100000, gzip compressed size: 133, duration 19 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 0) 100028, duration 50 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 1 -c 1) 655, duration 79 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 1 -c 2) 655, duration 74 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 1 -c 3) 655, duration 68 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 1 -c 4) 655, duration 67 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 1 -c 5) 655, duration 70 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 1 -c 6) 655, duration 63 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 1 -c 7) 655, duration 67 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 1 -c 8) 655, duration 72 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 1 -c 9) 655, duration 67 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 2 -c 1) 146, duration 73 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 2 -c 2) 146, duration 65 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 2 -c 3) 146, duration 67 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 2 -c 4) 146, duration 69 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 2 -c 5) 146, duration 69 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 2 -c 6) 146, duration 67 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 2 -c 7) 146, duration 66 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 2 -c 8) 146, duration 71 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/artificl_aaa.txt: original size 100000, compressed size (-t 2 -c 9) 146, duration 66 seconds
+- Testing files/artificl_alphabet.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/artificl_alphabet.txt: original size 100000, gzip compressed size: 302, duration 24 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 0) 100028, duration 44 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 1 -c 1) 824, duration 64 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 1 -c 2) 824, duration 66 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 1 -c 3) 824, duration 66 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 1 -c 4) 824, duration 69 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 1 -c 5) 824, duration 65 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 1 -c 6) 824, duration 65 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 1 -c 7) 824, duration 67 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 1 -c 8) 824, duration 69 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 1 -c 9) 824, duration 66 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 2 -c 1) 316, duration 70 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 2 -c 2) 316, duration 74 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 2 -c 3) 316, duration 70 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 2 -c 4) 316, duration 72 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 2 -c 5) 316, duration 68 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 2 -c 6) 316, duration 69 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 2 -c 7) 316, duration 71 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 2 -c 8) 316, duration 70 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/artificl_alphabet.txt: original size 100000, compressed size (-t 2 -c 9) 316, duration 68 seconds
+- Testing files/artificl_a.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/artificl_a.txt: original size 1, gzip compressed size: 21, duration 0 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 0) 24, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 1 -c 1) 21, duration 7 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 1 -c 2) 21, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 1 -c 3) 21, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 1 -c 4) 21, duration 7 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 1 -c 5) 21, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 1 -c 6) 21, duration 7 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 1 -c 7) 21, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 1 -c 8) 21, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 1 -c 9) 21, duration 6 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 2 -c 1) 31, duration 7 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 2 -c 2) 31, duration 7 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 2 -c 3) 31, duration 7 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 2 -c 4) 31, duration 9 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 2 -c 5) 31, duration 11 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 2 -c 6) 31, duration 8 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 2 -c 7) 31, duration 8 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 2 -c 8) 31, duration 7 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/artificl_a.txt: original size 1, compressed size (-t 2 -c 9) 31, duration 7 seconds
+- Testing files/artificl_random.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/artificl_random.txt: original size 100000, gzip compressed size: 75678, duration 110 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 0) 100028, duration 47 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 1 -c 1) 99748, duration 126 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 1 -c 2) 99748, duration 133 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 1 -c 3) 99748, duration 124 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 1 -c 4) 99748, duration 124 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 1 -c 5) 99748, duration 129 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 1 -c 6) 99748, duration 131 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 1 -c 7) 99748, duration 128 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 1 -c 8) 99748, duration 131 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 1 -c 9) 99748, duration 140 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 2 -c 1) 77317, duration 126 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 2 -c 2) 77317, duration 125 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 2 -c 3) 77317, duration 126 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 2 -c 4) 77317, duration 128 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 2 -c 5) 77317, duration 132 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 2 -c 6) 77317, duration 134 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 2 -c 7) 77317, duration 142 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 2 -c 8) 77317, duration 136 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/artificl_random.txt: original size 100000, compressed size (-t 2 -c 9) 77317, duration 130 seconds
+- Testing files/calgary_bib...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_bib: original size 111261, gzip compressed size: 35059, duration 76 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 0) 111289, duration 50 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 1 -c 1) 48661, duration 134 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 1 -c 2) 44726, duration 167 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 1 -c 3) 43804, duration 188 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 1 -c 4) 43472, duration 204 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 1 -c 5) 43345, duration 213 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 1 -c 6) 43278, duration 217 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 1 -c 7) 43234, duration 224 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 1 -c 8) 43222, duration 230 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 1 -c 9) 43218, duration 224 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 2 -c 1) 40346, duration 137 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 2 -c 2) 37605, duration 174 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 2 -c 3) 36903, duration 192 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 2 -c 4) 36633, duration 227 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 2 -c 5) 36533, duration 233 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 2 -c 6) 36480, duration 239 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 2 -c 7) 36443, duration 244 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 2 -c 8) 36432, duration 249 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_bib: original size 111261, compressed size (-t 2 -c 9) 36428, duration 245 seconds
+- Testing files/calgary_book1...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_book1: original size 768771, gzip compressed size: 313370, duration 659 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 0) 768849, duration 314 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 1 -c 1) 438031, duration 1224 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 1 -c 2) 411905, duration 1734 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 1 -c 3) 407989, duration 1921 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 1 -c 4) 406339, duration 1974 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 1 -c 5) 405471, duration 2146 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 1 -c 6) 404883, duration 2126 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 1 -c 7) 404457, duration 2220 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 1 -c 8) 404164, duration 2396 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 1 -c 9) 403993, duration 2296 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 2 -c 1) 342948, duration 1192 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 2 -c 2) 328042, duration 1707 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 2 -c 3) 325276, duration 1916 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 2 -c 4) 324020, duration 2049 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 2 -c 5) 323335, duration 2116 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 2 -c 6) 322891, duration 2193 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 2 -c 7) 322551, duration 2348 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 2 -c 8) 322308, duration 2313 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_book1: original size 768771, compressed size (-t 2 -c 9) 322172, duration 2320 seconds
+- Testing files/calgary_book2...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_book2: original size 610856, gzip compressed size: 206681, duration 454 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 0) 610924, duration 239 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 1 -c 1) 285465, duration 732 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 1 -c 2) 262067, duration 1035 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 1 -c 3) 258265, duration 1178 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 1 -c 4) 256921, duration 1289 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 1 -c 5) 256387, duration 1333 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 1 -c 6) 256034, duration 1344 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 1 -c 7) 255825, duration 1436 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 1 -c 8) 255712, duration 1486 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 1 -c 9) 255634, duration 1501 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 2 -c 1) 233059, duration 856 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 2 -c 2) 217778, duration 1172 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 2 -c 3) 214923, duration 1325 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 2 -c 4) 213869, duration 1442 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 2 -c 5) 213462, duration 1459 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 2 -c 6) 213177, duration 1598 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 2 -c 7) 213009, duration 1548 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 2 -c 8) 212924, duration 1557 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_book2: original size 610856, compressed size (-t 2 -c 9) 212863, duration 1546 seconds
+- Testing files/calgary_geo...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_geo: original size 102400, gzip compressed size: 68489, duration 97 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 0) 102428, duration 18 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 1 -c 1) 87049, duration 150 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 1 -c 2) 86601, duration 196 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 1 -c 3) 86542, duration 211 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 1 -c 4) 86507, duration 220 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 1 -c 5) 86407, duration 212 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 1 -c 6) 86404, duration 207 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 1 -c 7) 86402, duration 217 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 1 -c 8) 86402, duration 213 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 1 -c 9) 86401, duration 226 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 2 -c 1) 69564, duration 152 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 2 -c 2) 69317, duration 207 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 2 -c 3) 69281, duration 227 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 2 -c 4) 69259, duration 237 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 2 -c 5) 69137, duration 232 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 2 -c 6) 69133, duration 231 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 2 -c 7) 69136, duration 233 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 2 -c 8) 69136, duration 230 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_geo: original size 102400, compressed size (-t 2 -c 9) 69134, duration 232 seconds
+- Testing files/calgary_news...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_news: original size 377109, gzip compressed size: 144835, duration 269 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 0) 377157, duration 164 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 1 -c 1) 186769, duration 497 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 1 -c 2) 179653, duration 624 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 1 -c 3) 178124, duration 681 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 1 -c 4) 177351, duration 712 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 1 -c 5) 177120, duration 739 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 1 -c 6) 177052, duration 738 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 1 -c 7) 177024, duration 749 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 1 -c 8) 176995, duration 758 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 1 -c 9) 176975, duration 755 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 2 -c 1) 155496, duration 512 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 2 -c 2) 151019, duration 675 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 2 -c 3) 149870, duration 717 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 2 -c 4) 149250, duration 801 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 2 -c 5) 149071, duration 805 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 2 -c 6) 149007, duration 823 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 2 -c 7) 148982, duration 820 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 2 -c 8) 148957, duration 849 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_news: original size 377109, compressed size (-t 2 -c 9) 148940, duration 830 seconds
+- Testing files/calgary_obj1...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_obj1: original size 21504, gzip compressed size: 10318, duration 15 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 0) 21527, duration 9 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 1 -c 1) 11677, duration 19 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 1 -c 2) 11591, duration 30 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 1 -c 3) 11531, duration 24 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 1 -c 4) 11497, duration 26 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 1 -c 5) 11493, duration 26 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 1 -c 6) 11494, duration 26 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 1 -c 7) 11494, duration 28 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 1 -c 8) 11494, duration 26 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 1 -c 9) 11494, duration 30 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 2 -c 1) 10607, duration 23 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 2 -c 2) 10555, duration 25 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 2 -c 3) 10499, duration 25 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 2 -c 4) 10477, duration 28 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 2 -c 5) 10474, duration 28 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 2 -c 6) 10475, duration 26 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 2 -c 7) 10475, duration 29 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 2 -c 8) 10475, duration 26 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_obj1: original size 21504, compressed size (-t 2 -c 9) 10475, duration 34 seconds
+- Testing files/calgary_obj2...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_obj2: original size 246814, gzip compressed size: 81626, duration 172 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 0) 246852, duration 31 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 1 -c 1) 102112, duration 207 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 1 -c 2) 97329, duration 265 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 1 -c 3) 95970, duration 306 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 1 -c 4) 95295, duration 334 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 1 -c 5) 95075, duration 352 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 1 -c 6) 94949, duration 372 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 1 -c 7) 94882, duration 362 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 1 -c 8) 94850, duration 376 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 1 -c 9) 94813, duration 379 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 2 -c 1) 90336, duration 215 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 2 -c 2) 86841, duration 265 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 2 -c 3) 85780, duration 314 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 2 -c 4) 85220, duration 344 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 2 -c 5) 85048, duration 373 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 2 -c 6) 84946, duration 416 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 2 -c 7) 84891, duration 411 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 2 -c 8) 84871, duration 399 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_obj2: original size 246814, compressed size (-t 2 -c 9) 84847, duration 425 seconds
+- Testing files/calgary_paper1...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_paper1: original size 53161, gzip compressed size: 18570, duration 36 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 0) 53184, duration 26 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 1 -c 1) 24771, duration 64 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 1 -c 2) 23073, duration 83 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 1 -c 3) 22776, duration 87 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 1 -c 4) 22660, duration 95 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 1 -c 5) 22633, duration 99 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 1 -c 6) 22622, duration 101 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 1 -c 7) 22617, duration 99 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 1 -c 8) 22610, duration 102 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 1 -c 9) 22604, duration 100 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 2 -c 1) 20497, duration 61 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 2 -c 2) 19419, duration 81 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 2 -c 3) 19217, duration 89 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 2 -c 4) 19137, duration 94 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 2 -c 5) 19122, duration 97 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 2 -c 6) 19118, duration 99 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 2 -c 7) 19116, duration 99 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 2 -c 8) 19112, duration 99 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_paper1: original size 53161, compressed size (-t 2 -c 9) 19108, duration 111 seconds
+- Testing files/calgary_paper2...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_paper2: original size 82199, gzip compressed size: 29746, duration 58 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 0) 82227, duration 39 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 1 -c 1) 40824, duration 114 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 1 -c 2) 37862, duration 144 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 1 -c 3) 37432, duration 168 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 1 -c 4) 37273, duration 178 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 1 -c 5) 37192, duration 185 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 1 -c 6) 37144, duration 208 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 1 -c 7) 37100, duration 198 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 1 -c 8) 37087, duration 195 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 1 -c 9) 37082, duration 197 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 2 -c 1) 32967, duration 117 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 2 -c 2) 31179, duration 151 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 2 -c 3) 30900, duration 166 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 2 -c 4) 30789, duration 183 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 2 -c 5) 30728, duration 189 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 2 -c 6) 30693, duration 191 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 2 -c 7) 30662, duration 197 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 2 -c 8) 30652, duration 203 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_paper2: original size 82199, compressed size (-t 2 -c 9) 30651, duration 199 seconds
+- Testing files/calgary_paper3...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_paper3: original size 46526, gzip compressed size: 18090, duration 29 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 0) 46549, duration 23 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 1 -c 1) 24371, duration 61 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 1 -c 2) 22851, duration 77 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 1 -c 3) 22653, duration 90 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 1 -c 4) 22619, duration 91 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 1 -c 5) 22604, duration 92 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 1 -c 6) 22582, duration 94 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 1 -c 7) 22573, duration 93 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 1 -c 8) 22575, duration 95 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 1 -c 9) 22573, duration 96 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 2 -c 1) 19693, duration 59 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 2 -c 2) 18834, duration 74 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 2 -c 3) 18707, duration 83 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 2 -c 4) 18690, duration 92 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 2 -c 5) 18683, duration 90 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 2 -c 6) 18668, duration 97 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 2 -c 7) 18663, duration 101 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 2 -c 8) 18666, duration 96 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_paper3: original size 46526, compressed size (-t 2 -c 9) 18665, duration 99 seconds
+- Testing files/calgary_paper4...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_paper4: original size 13286, gzip compressed size: 5529, duration 7 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 0) 13309, duration 9 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 1 -c 1) 7206, duration 18 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 1 -c 2) 6983, duration 18 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 1 -c 3) 6954, duration 21 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 1 -c 4) 6940, duration 19 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 1 -c 5) 6937, duration 22 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 1 -c 6) 6937, duration 20 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 1 -c 7) 6937, duration 19 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 1 -c 8) 6934, duration 20 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 1 -c 9) 6934, duration 20 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 2 -c 1) 5854, duration 17 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 2 -c 2) 5727, duration 22 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 2 -c 3) 5712, duration 22 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 2 -c 4) 5704, duration 21 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 2 -c 5) 5702, duration 22 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 2 -c 6) 5702, duration 20 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 2 -c 7) 5702, duration 21 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 2 -c 8) 5701, duration 20 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_paper4: original size 13286, compressed size (-t 2 -c 9) 5701, duration 20 seconds
+- Testing files/calgary_paper5...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_paper5: original size 11954, gzip compressed size: 4988, duration 6 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 0) 11977, duration 10 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 1 -c 1) 6361, duration 20 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 1 -c 2) 6157, duration 18 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 1 -c 3) 6136, duration 17 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 1 -c 4) 6132, duration 18 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 1 -c 5) 6133, duration 17 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 1 -c 6) 6133, duration 17 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 1 -c 7) 6133, duration 20 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 1 -c 8) 6133, duration 17 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 1 -c 9) 6133, duration 18 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 2 -c 1) 5254, duration 16 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 2 -c 2) 5130, duration 18 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 2 -c 3) 5117, duration 20 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 2 -c 4) 5115, duration 19 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 2 -c 5) 5116, duration 19 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 2 -c 6) 5116, duration 18 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 2 -c 7) 5116, duration 19 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 2 -c 8) 5116, duration 21 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_paper5: original size 11954, compressed size (-t 2 -c 9) 5116, duration 18 seconds
+- Testing files/calgary_paper6...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_paper6: original size 38105, gzip compressed size: 13225, duration 21 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 0) 38128, duration 19 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 1 -c 1) 17555, duration 41 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 1 -c 2) 16420, duration 52 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 1 -c 3) 16272, duration 55 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 1 -c 4) 16215, duration 61 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 1 -c 5) 16195, duration 65 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 1 -c 6) 16175, duration 59 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 1 -c 7) 16174, duration 60 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 1 -c 8) 16167, duration 59 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 1 -c 9) 16165, duration 59 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 2 -c 1) 14616, duration 43 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 2 -c 2) 13906, duration 47 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 2 -c 3) 13813, duration 54 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 2 -c 4) 13779, duration 62 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 2 -c 5) 13766, duration 61 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 2 -c 6) 13754, duration 63 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 2 -c 7) 13755, duration 61 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 2 -c 8) 13750, duration 64 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_paper6: original size 38105, compressed size (-t 2 -c 9) 13748, duration 67 seconds
+- Testing files/calgary_pic...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_pic: original size 513216, gzip compressed size: 56438, duration 175 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 0) 513274, duration 81 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 1 -c 1) 73444, duration 282 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 1 -c 2) 71150, duration 286 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 1 -c 3) 70717, duration 312 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 1 -c 4) 69977, duration 390 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 1 -c 5) 69743, duration 459 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 1 -c 6) 69228, duration 620 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 1 -c 7) 68996, duration 692 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 1 -c 8) 68877, duration 808 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 1 -c 9) 68777, duration 851 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 2 -c 1) 61131, duration 307 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 2 -c 2) 59665, duration 335 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 2 -c 3) 59361, duration 366 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 2 -c 4) 58753, duration 420 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 2 -c 5) 58571, duration 496 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 2 -c 6) 58160, duration 639 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 2 -c 7) 57942, duration 768 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 2 -c 8) 57847, duration 846 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_pic: original size 513216, compressed size (-t 2 -c 9) 57758, duration 886 seconds
+- Testing files/calgary_progc...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_progc: original size 39611, gzip compressed size: 13269, duration 20 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 0) 39634, duration 19 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 1 -c 1) 17374, duration 40 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 1 -c 2) 16308, duration 53 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 1 -c 3) 16129, duration 57 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 1 -c 4) 16064, duration 64 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 1 -c 5) 16052, duration 66 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 1 -c 6) 16047, duration 64 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 1 -c 7) 16040, duration 68 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 1 -c 8) 16029, duration 70 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 1 -c 9) 16025, duration 70 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 2 -c 1) 14606, duration 41 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 2 -c 2) 13935, duration 51 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 2 -c 3) 13819, duration 57 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 2 -c 4) 13772, duration 61 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 2 -c 5) 13766, duration 62 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 2 -c 6) 13764, duration 64 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 2 -c 7) 13758, duration 65 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 2 -c 8) 13751, duration 69 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_progc: original size 39611, compressed size (-t 2 -c 9) 13747, duration 66 seconds
+- Testing files/calgary_progl...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_progl: original size 71646, gzip compressed size: 16267, duration 33 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 0) 71674, duration 43 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 1 -c 1) 22600, duration 73 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 1 -c 2) 20429, duration 88 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 1 -c 3) 19871, duration 100 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 1 -c 4) 19619, duration 110 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 1 -c 5) 19528, duration 116 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 1 -c 6) 19456, duration 123 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 1 -c 7) 19432, duration 129 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 1 -c 8) 19402, duration 136 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 1 -c 9) 19394, duration 139 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 2 -c 1) 19000, duration 76 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 2 -c 2) 17570, duration 97 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 2 -c 3) 17152, duration 100 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 2 -c 4) 16961, duration 116 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 2 -c 5) 16890, duration 123 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 2 -c 6) 16830, duration 127 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 2 -c 7) 16813, duration 148 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 2 -c 8) 16789, duration 132 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_progl: original size 71646, compressed size (-t 2 -c 9) 16785, duration 139 seconds
+- Testing files/calgary_progp...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_progp: original size 49379, gzip compressed size: 11240, duration 22 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 0) 49402, duration 20 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 1 -c 1) 15105, duration 45 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 1 -c 2) 13752, duration 53 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 1 -c 3) 13429, duration 60 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 1 -c 4) 13312, duration 66 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 1 -c 5) 13274, duration 73 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 1 -c 6) 13238, duration 73 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 1 -c 7) 13203, duration 79 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 1 -c 8) 13198, duration 82 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 1 -c 9) 13195, duration 90 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 2 -c 1) 12823, duration 46 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 2 -c 2) 11912, duration 58 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 2 -c 3) 11677, duration 64 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 2 -c 4) 11589, duration 73 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 2 -c 5) 11564, duration 75 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 2 -c 6) 11537, duration 77 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 2 -c 7) 11507, duration 77 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 2 -c 8) 11502, duration 83 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_progp: original size 49379, compressed size (-t 2 -c 9) 11499, duration 81 seconds
+- Testing files/calgary_trans...
+  ######## gzip compression, gzip.sh decompression
+  - files/calgary_trans: original size 93695, gzip compressed size: 18979, duration 43 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 0) 93723, duration 15 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 1 -c 1) 25866, duration 59 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 1 -c 2) 23643, duration 69 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 1 -c 3) 23078, duration 96 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 1 -c 4) 22641, duration 93 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 1 -c 5) 22482, duration 103 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 1 -c 6) 22386, duration 109 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 1 -c 7) 22379, duration 112 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 1 -c 8) 22359, duration 115 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 1 -c 9) 22349, duration 113 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 2 -c 1) 22344, duration 60 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 2 -c 2) 20713, duration 71 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 2 -c 3) 20265, duration 90 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 2 -c 4) 19905, duration 98 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 2 -c 5) 19766, duration 107 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 2 -c 6) 19685, duration 113 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 2 -c 7) 19679, duration 117 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 2 -c 8) 19659, duration 119 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/calgary_trans: original size 93695, compressed size (-t 2 -c 9) 19652, duration 124 seconds
+- Testing files/cantrbry_alice29.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/cantrbry_alice29.txt: original size 152089, gzip compressed size: 54423, duration 105 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 0) 152122, duration 62 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 1 -c 1) 75805, duration 199 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 1 -c 2) 70008, duration 272 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 1 -c 3) 68784, duration 307 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 1 -c 4) 68279, duration 333 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 1 -c 5) 68064, duration 344 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 1 -c 6) 67906, duration 391 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 1 -c 7) 67818, duration 383 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 1 -c 8) 67772, duration 391 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 1 -c 9) 67720, duration 403 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 2 -c 1) 60780, duration 195 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 2 -c 2) 57268, duration 286 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 2 -c 3) 56376, duration 339 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 2 -c 4) 55968, duration 362 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 2 -c 5) 55802, duration 394 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 2 -c 6) 55680, duration 403 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 2 -c 7) 55609, duration 397 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 2 -c 8) 55569, duration 435 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/cantrbry_alice29.txt: original size 152089, compressed size (-t 2 -c 9) 55531, duration 427 seconds
+- Testing files/cantrbry_asyoulik.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, gzip compressed size: 48938, duration 98 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 0) 125207, duration 60 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 1 -c 1) 67227, duration 200 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 1 -c 2) 63602, duration 254 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 1 -c 3) 62814, duration 284 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 1 -c 4) 62546, duration 304 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 1 -c 5) 62390, duration 307 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 1 -c 6) 62290, duration 312 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 1 -c 7) 62232, duration 321 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 1 -c 8) 62211, duration 321 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 1 -c 9) 62171, duration 337 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 2 -c 1) 53191, duration 173 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 2 -c 2) 51256, duration 249 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 2 -c 3) 50718, duration 279 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 2 -c 4) 50519, duration 295 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 2 -c 5) 50409, duration 315 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 2 -c 6) 50344, duration 320 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 2 -c 7) 50302, duration 341 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 2 -c 8) 50280, duration 322 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/cantrbry_asyoulik.txt: original size 125179, compressed size (-t 2 -c 9) 50252, duration 327 seconds
+- Testing files/cantrbry_cp.html...
+  ######## gzip compression, gzip.sh decompression
+  - files/cantrbry_cp.html: original size 24603, gzip compressed size: 7991, duration 12 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 0) 24626, duration 11 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 1 -c 1) 10238, duration 25 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 1 -c 2) 9900, duration 23 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 1 -c 3) 9773, duration 28 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 1 -c 4) 9645, duration 30 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 1 -c 5) 9622, duration 33 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 1 -c 6) 9617, duration 33 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 1 -c 7) 9616, duration 36 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 1 -c 8) 9611, duration 34 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 1 -c 9) 9611, duration 35 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 2 -c 1) 8673, duration 24 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 2 -c 2) 8423, duration 28 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 2 -c 3) 8325, duration 31 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 2 -c 4) 8219, duration 32 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 2 -c 5) 8198, duration 34 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 2 -c 6) 8194, duration 35 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 2 -c 7) 8192, duration 35 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 2 -c 8) 8189, duration 35 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/cantrbry_cp.html: original size 24603, compressed size (-t 2 -c 9) 8189, duration 35 seconds
+- Testing files/cantrbry_fields.c...
+  ######## gzip compression, gzip.sh decompression
+  - files/cantrbry_fields.c: original size 11150, gzip compressed size: 3134, duration 5 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 0) 11173, duration 7 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 1 -c 1) 4137, duration 12 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 1 -c 2) 3790, duration 16 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 1 -c 3) 3724, duration 14 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 1 -c 4) 3690, duration 15 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 1 -c 5) 3687, duration 16 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 1 -c 6) 3685, duration 18 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 1 -c 7) 3684, duration 17 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 1 -c 8) 3684, duration 17 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 1 -c 9) 3684, duration 16 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 2 -c 1) 3502, duration 14 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 2 -c 2) 3265, duration 16 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 2 -c 3) 3217, duration 17 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 2 -c 4) 3192, duration 18 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 2 -c 5) 3191, duration 17 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 2 -c 6) 3190, duration 16 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 2 -c 7) 3189, duration 17 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 2 -c 8) 3189, duration 19 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/cantrbry_fields.c: original size 11150, compressed size (-t 2 -c 9) 3189, duration 18 seconds
+- Testing files/cantrbry_grammar.lsp...
+  ######## gzip compression, gzip.sh decompression
+  - files/cantrbry_grammar.lsp: original size 3721, gzip compressed size: 1234, duration 2 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 0) 3744, duration 7 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 1 -c 1) 1581, duration 9 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 1 -c 2) 1492, duration 9 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 1 -c 3) 1489, duration 16 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 1 -c 4) 1489, duration 12 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 1 -c 5) 1489, duration 11 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 1 -c 6) 1489, duration 10 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 1 -c 7) 1489, duration 10 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 1 -c 8) 1489, duration 14 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 1 -c 9) 1489, duration 10 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 2 -c 1) 1318, duration 11 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 2 -c 2) 1257, duration 9 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 2 -c 3) 1254, duration 10 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 2 -c 4) 1257, duration 13 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 2 -c 5) 1257, duration 11 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 2 -c 6) 1257, duration 11 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 2 -c 7) 1257, duration 12 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 2 -c 8) 1257, duration 11 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/cantrbry_grammar.lsp: original size 3721, compressed size (-t 2 -c 9) 1257, duration 11 seconds
+- Testing files/cantrbry_kennedy.xls...
+  ######## gzip compression, gzip.sh decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, gzip compressed size: 206767, duration 490 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 0) 1029842, duration 118 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 1 -c 1) 341055, duration 557 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 1 -c 2) 325969, duration 688 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 1 -c 3) 325728, duration 1362 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 1 -c 4) 325650, duration 1446 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 1 -c 5) 325584, duration 1486 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 1 -c 6) 325503, duration 1484 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 1 -c 7) 325470, duration 1569 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 1 -c 8) 325367, duration 1593 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 1 -c 9) 325244, duration 1662 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 2 -c 1) 229604, duration 652 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 2 -c 2) 215839, duration 770 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 2 -c 3) 215369, duration 1473 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 2 -c 4) 215229, duration 1538 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 2 -c 5) 215150, duration 1556 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 2 -c 6) 215058, duration 1565 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 2 -c 7) 214986, duration 1593 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 2 -c 8) 214805, duration 1699 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/cantrbry_kennedy.xls: original size 1029744, compressed size (-t 2 -c 9) 214549, duration 1637 seconds
+- Testing files/cantrbry_lcet10.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/cantrbry_lcet10.txt: original size 426754, gzip compressed size: 144874, duration 297 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 0) 426807, duration 174 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 1 -c 1) 201125, duration 544 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 1 -c 2) 184642, duration 764 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 1 -c 3) 181871, duration 883 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 1 -c 4) 180887, duration 938 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 1 -c 5) 180402, duration 1029 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 1 -c 6) 180085, duration 1041 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 1 -c 7) 179890, duration 1064 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 1 -c 8) 179785, duration 1052 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 1 -c 9) 179734, duration 1085 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 2 -c 1) 162364, duration 541 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 2 -c 2) 151865, duration 760 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 2 -c 3) 149770, duration 919 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 2 -c 4) 148969, duration 977 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 2 -c 5) 148561, duration 998 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 2 -c 6) 148302, duration 1056 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 2 -c 7) 148128, duration 1161 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 2 -c 8) 148040, duration 1111 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/cantrbry_lcet10.txt: original size 426754, compressed size (-t 2 -c 9) 147993, duration 1137 seconds
+- Testing files/cantrbry_plrabn12.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, gzip compressed size: 195195, duration 361 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 0) 481919, duration 187 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 1 -c 1) 274608, duration 702 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 1 -c 2) 258288, duration 1063 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 1 -c 3) 255628, duration 1234 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 1 -c 4) 254342, duration 1334 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 1 -c 5) 253614, duration 1444 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 1 -c 6) 253170, duration 1454 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 1 -c 7) 252901, duration 1513 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 1 -c 8) 252719, duration 1543 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 1 -c 9) 252575, duration 1513 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 2 -c 1) 213176, duration 781 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 2 -c 2) 204187, duration 1130 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 2 -c 3) 202317, duration 1264 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 2 -c 4) 201364, duration 1347 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 2 -c 5) 200825, duration 1404 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 2 -c 6) 200489, duration 1555 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 2 -c 7) 200297, duration 1486 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 2 -c 8) 200167, duration 1527 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/cantrbry_plrabn12.txt: original size 481861, compressed size (-t 2 -c 9) 200066, duration 1497 seconds
+- Testing files/cantrbry_ptt5...
+  ######## gzip compression, gzip.sh decompression
+  - files/cantrbry_ptt5: original size 513216, gzip compressed size: 56438, duration 159 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 0) 513274, duration 72 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 1 -c 1) 73444, duration 239 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 1 -c 2) 71150, duration 266 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 1 -c 3) 70717, duration 295 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 1 -c 4) 69977, duration 343 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 1 -c 5) 69743, duration 419 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 1 -c 6) 69228, duration 567 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 1 -c 7) 68996, duration 662 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 1 -c 8) 68877, duration 748 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 1 -c 9) 68777, duration 777 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 2 -c 1) 61131, duration 276 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 2 -c 2) 59665, duration 328 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 2 -c 3) 59361, duration 350 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 2 -c 4) 58753, duration 376 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 2 -c 5) 58571, duration 461 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 2 -c 6) 58160, duration 595 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 2 -c 7) 57942, duration 690 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 2 -c 8) 57847, duration 759 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/cantrbry_ptt5: original size 513216, compressed size (-t 2 -c 9) 57758, duration 842 seconds
+- Testing files/cantrbry_sum...
+  ######## gzip compression, gzip.sh decompression
+  - files/cantrbry_sum: original size 38240, gzip compressed size: 12920, duration 21 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 0) 38263, duration 11 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 1 -c 1) 15928, duration 31 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 1 -c 2) 15388, duration 35 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 1 -c 3) 15258, duration 45 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 1 -c 4) 15192, duration 47 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 1 -c 5) 15179, duration 47 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 1 -c 6) 15170, duration 49 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 1 -c 7) 15167, duration 54 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 1 -c 8) 15167, duration 52 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 1 -c 9) 15163, duration 56 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 2 -c 1) 13953, duration 35 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 2 -c 2) 13611, duration 43 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 2 -c 3) 13528, duration 53 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 2 -c 4) 13476, duration 49 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 2 -c 5) 13466, duration 49 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 2 -c 6) 13463, duration 49 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 2 -c 7) 13461, duration 51 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 2 -c 8) 13461, duration 50 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/cantrbry_sum: original size 38240, compressed size (-t 2 -c 9) 13459, duration 52 seconds
+- Testing files/cantrbry_xargs.1...
+  ######## gzip compression, gzip.sh decompression
+  - files/cantrbry_xargs.1: original size 4227, gzip compressed size: 1748, duration 2 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 0) 4250, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 1 -c 1) 2211, duration 12 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 1 -c 2) 2160, duration 8 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 1 -c 3) 2153, duration 8 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 1 -c 4) 2149, duration 9 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 1 -c 5) 2149, duration 9 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 1 -c 6) 2149, duration 9 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 1 -c 7) 2149, duration 10 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 1 -c 8) 2149, duration 9 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 1 -c 9) 2149, duration 9 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 2 -c 1) 1823, duration 9 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 2 -c 2) 1790, duration 9 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 2 -c 3) 1784, duration 9 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 2 -c 4) 1781, duration 10 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 2 -c 5) 1781, duration 10 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 2 -c 6) 1781, duration 9 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 2 -c 7) 1781, duration 10 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 2 -c 8) 1781, duration 9 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/cantrbry_xargs.1: original size 4227, compressed size (-t 2 -c 9) 1781, duration 10 seconds
+- Testing files/large_bible.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/large_bible.txt: original size 4047392, gzip compressed size: 1191061, duration 2617 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 0) 4047720, duration 1647 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 1 -c 1) 1723812, duration 4879 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 1 -c 2) 1543246, duration 7153 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 1 -c 3) 1508237, duration 8848 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 1 -c 4) 1492785, duration 10169 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 1 -c 5) 1485806, duration 10172 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 1 -c 6) 1481151, duration 10572 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 1 -c 7) 1477901, duration 11150 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 1 -c 8) 1475551, duration 11627 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 1 -c 9) 1473594, duration 11550 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 2 -c 1) 1384021, duration 5996 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 2 -c 2) 1269969, duration 7885 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 2 -c 3) 1244479, duration 9423 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 2 -c 4) 1232360, duration 10647 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 2 -c 5) 1226811, duration 11904 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 2 -c 6) 1223133, duration 15327 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 2 -c 7) 1220533, duration 15050 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 2 -c 8) 1218630, duration 15959 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/large_bible.txt: original size 4047392, compressed size (-t 2 -c 9) 1217070, duration 15618 seconds
+- Testing files/large_E.coli...
+  ######## gzip compression, gzip.sh decompression
+  - files/large_E.coli: original size 4638690, gzip compressed size: 1341243, duration 2707 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 0) 4639063, duration 1917 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 1 -c 1) 2193342, duration 5504 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 1 -c 2) 2016398, duration 9371 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 1 -c 3) 1960072, duration 12397 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 1 -c 4) 1926225, duration 14520 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 1 -c 5) 1903471, duration 16894 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 1 -c 6) 1886415, duration 19024 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 1 -c 7) 1872378, duration 22851 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 1 -c 8) 1861053, duration 25463 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 1 -c 9) 1850891, duration 27118 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 2 -c 1) 1427474, duration 5985 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 2 -c 2) 1381094, duration 9863 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 2 -c 3) 1368303, duration 13451 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 2 -c 4) 1357827, duration 16092 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 2 -c 5) 1351039, duration 18851 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 2 -c 6) 1345313, duration 20342 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 2 -c 7) 1343662, duration 24017 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 2 -c 8) 1340615, duration 27404 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/large_E.coli: original size 4638690, compressed size (-t 2 -c 9) 1338097, duration 29580 seconds
+- Testing files/large_world192.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/large_world192.txt: original size 2473400, gzip compressed size: 724593, duration 1708 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 0) 2473608, duration 938 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 1 -c 1) 1000785, duration 2987 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 1 -c 2) 917970, duration 3589 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 1 -c 3) 902070, duration 4113 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 1 -c 4) 893140, duration 4321 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 1 -c 5) 890571, duration 4468 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 1 -c 6) 889707, duration 4761 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 1 -c 7) 889389, duration 4804 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 1 -c 8) 889141, duration 4727 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 1 -c 9) 888867, duration 4822 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 2 -c 1) 832656, duration 3271 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 2 -c 2) 771198, duration 4030 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 2 -c 3) 758344, duration 4425 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 2 -c 4) 751236, duration 4688 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 2 -c 5) 749137, duration 4880 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 2 -c 6) 748430, duration 4955 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 2 -c 7) 748165, duration 5003 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 2 -c 8) 747911, duration 4934 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/large_world192.txt: original size 2473400, compressed size (-t 2 -c 9) 747651, duration 4960 seconds
+- Testing files/misc_pi.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/misc_pi.txt: original size 1000000, gzip compressed size: 470433, duration 791 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 0) 1000098, duration 357 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 1 -c 1) 707780, duration 1715 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 1 -c 2) 679023, duration 3285 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 1 -c 3) 675931, duration 3337 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 1 -c 4) 675929, duration 3431 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 1 -c 5) 675929, duration 3648 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 1 -c 6) 675929, duration 3796 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 1 -c 7) 675929, duration 3664 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 1 -c 8) 675929, duration 3675 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 1 -c 9) 675929, duration 3693 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 2 -c 1) 492345, duration 2064 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 2 -c 2) 476428, duration 3607 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 2 -c 3) 474873, duration 3737 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 2 -c 4) 474872, duration 3731 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 2 -c 5) 474872, duration 3761 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 2 -c 6) 474872, duration 3844 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 2 -c 7) 474872, duration 3858 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 2 -c 8) 474872, duration 3729 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/misc_pi.txt: original size 1000000, compressed size (-t 2 -c 9) 474872, duration 3745 seconds
+- Testing files/x_1-256.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/x_1-256.txt: original size 256, gzip compressed size: 279, duration 0 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 0) 279, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 1 -c 1) 290, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 1 -c 2) 290, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 1 -c 3) 290, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 1 -c 4) 290, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 1 -c 5) 290, duration 7 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 1 -c 6) 290, duration 7 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 1 -c 7) 290, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 1 -c 8) 290, duration 7 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 1 -c 9) 290, duration 6 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 2 -c 1) 300, duration 7 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 2 -c 2) 300, duration 7 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 2 -c 3) 300, duration 8 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 2 -c 4) 300, duration 8 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 2 -c 5) 300, duration 7 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 2 -c 6) 300, duration 8 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 2 -c 7) 300, duration 6 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 2 -c 8) 300, duration 7 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/x_1-256.txt: original size 256, compressed size (-t 2 -c 9) 300, duration 7 seconds
+- Testing files/x_alllit.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/x_alllit.txt: original size 124, gzip compressed size: 133, duration 0 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 0) 147, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 1 -c 1) 144, duration 5 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 1 -c 2) 144, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 1 -c 3) 144, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 1 -c 4) 144, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 1 -c 5) 144, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 1 -c 6) 144, duration 7 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 1 -c 7) 144, duration 7 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 1 -c 8) 144, duration 6 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 1 -c 9) 144, duration 6 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 2 -c 1) 129, duration 7 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 2 -c 2) 129, duration 6 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 2 -c 3) 129, duration 7 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 2 -c 4) 129, duration 6 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 2 -c 5) 129, duration 9 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 2 -c 6) 129, duration 7 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 2 -c 7) 129, duration 7 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 2 -c 8) 129, duration 6 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/x_alllit.txt: original size 124, compressed size (-t 2 -c 9) 129, duration 7 seconds
+- Testing files/x_allnul.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/x_allnul.txt: original size 30000, gzip compressed size: 64, duration 4 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 0) 30023, duration 10 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 1 -c 1) 211, duration 15 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 1 -c 2) 211, duration 16 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 1 -c 3) 211, duration 16 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 1 -c 4) 211, duration 16 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 1 -c 5) 211, duration 18 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 1 -c 6) 211, duration 17 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 1 -c 7) 211, duration 17 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 1 -c 8) 211, duration 15 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 1 -c 9) 211, duration 17 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 2 -c 1) 63, duration 16 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 2 -c 2) 63, duration 15 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 2 -c 3) 63, duration 15 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 2 -c 4) 63, duration 18 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 2 -c 5) 63, duration 15 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 2 -c 6) 63, duration 15 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 2 -c 7) 63, duration 20 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 2 -c 8) 63, duration 17 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/x_allnul.txt: original size 30000, compressed size (-t 2 -c 9) 63, duration 16 seconds
+- Testing files/x_chvt...
+  ######## gzip compression, gzip.sh decompression
+  - files/x_chvt: original size 14648, gzip compressed size: 3547, duration 6 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 0) 14671, duration 8 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 1 -c 1) 4050, duration 15 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 1 -c 2) 3963, duration 14 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 1 -c 3) 3932, duration 16 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 1 -c 4) 3925, duration 17 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 1 -c 5) 3921, duration 18 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 1 -c 6) 3919, duration 16 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 1 -c 7) 3917, duration 19 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 1 -c 8) 3917, duration 20 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 1 -c 9) 3913, duration 22 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 2 -c 1) 3730, duration 14 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 2 -c 2) 3667, duration 14 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 2 -c 3) 3645, duration 17 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 2 -c 4) 3642, duration 18 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 2 -c 5) 3639, duration 18 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 2 -c 6) 3639, duration 21 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 2 -c 7) 3636, duration 19 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 2 -c 8) 3637, duration 21 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/x_chvt: original size 14648, compressed size (-t 2 -c 9) 3635, duration 22 seconds
+- Testing files/x_seq.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/x_seq.txt: original size 78894, gzip compressed size: 34418, duration 55 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 0) 78922, duration 33 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 1 -c 1) 45838, duration 111 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 1 -c 2) 45896, duration 165 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 1 -c 3) 45916, duration 201 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 1 -c 4) 45948, duration 227 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 1 -c 5) 45951, duration 239 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 1 -c 6) 45947, duration 241 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 1 -c 7) 45946, duration 244 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 1 -c 8) 45946, duration 246 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 1 -c 9) 45946, duration 248 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 2 -c 1) 26366, duration 115 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 2 -c 2) 26901, duration 179 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 2 -c 3) 27205, duration 216 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 2 -c 4) 27496, duration 224 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 2 -c 5) 27600, duration 239 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 2 -c 6) 27631, duration 242 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 2 -c 7) 27631, duration 257 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 2 -c 8) 27631, duration 258 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/x_seq.txt: original size 78894, compressed size (-t 2 -c 9) 27631, duration 251 seconds
+- Testing files/x_urandom.txt...
+  ######## gzip compression, gzip.sh decompression
+  - files/x_urandom.txt: original size 90000, gzip compressed size: 74871, duration 89 seconds
+  ######## gzip.sh compression (-t 0), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 0) 90028, duration 34 seconds
+  ######## gzip.sh compression (-t 1 -c 1), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 1 -c 1) 89946, duration 87 seconds
+  ######## gzip.sh compression (-t 1 -c 2), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 1 -c 2) 89946, duration 88 seconds
+  ######## gzip.sh compression (-t 1 -c 3), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 1 -c 3) 89946, duration 89 seconds
+  ######## gzip.sh compression (-t 1 -c 4), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 1 -c 4) 89946, duration 90 seconds
+  ######## gzip.sh compression (-t 1 -c 5), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 1 -c 5) 89946, duration 84 seconds
+  ######## gzip.sh compression (-t 1 -c 6), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 1 -c 6) 89946, duration 80 seconds
+  ######## gzip.sh compression (-t 1 -c 7), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 1 -c 7) 89946, duration 85 seconds
+  ######## gzip.sh compression (-t 1 -c 8), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 1 -c 8) 89946, duration 91 seconds
+  ######## gzip.sh compression (-t 1 -c 9), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 1 -c 9) 89946, duration 88 seconds
+  ######## gzip.sh compression (-t 2 -c 1), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 2 -c 1) 75323, duration 89 seconds
+  ######## gzip.sh compression (-t 2 -c 2), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 2 -c 2) 75323, duration 93 seconds
+  ######## gzip.sh compression (-t 2 -c 3), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 2 -c 3) 75323, duration 88 seconds
+  ######## gzip.sh compression (-t 2 -c 4), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 2 -c 4) 75323, duration 85 seconds
+  ######## gzip.sh compression (-t 2 -c 5), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 2 -c 5) 75323, duration 91 seconds
+  ######## gzip.sh compression (-t 2 -c 6), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 2 -c 6) 75323, duration 90 seconds
+  ######## gzip.sh compression (-t 2 -c 7), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 2 -c 7) 75323, duration 91 seconds
+  ######## gzip.sh compression (-t 2 -c 8), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 2 -c 8) 75323, duration 87 seconds
+  ######## gzip.sh compression (-t 2 -c 9), gunzip decompression
+  - files/x_urandom.txt: original size 90000, compressed size (-t 2 -c 9) 75323, duration 90 seconds
