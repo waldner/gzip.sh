@@ -905,13 +905,19 @@ GZIP_inflate_huffman(){
 GZIP_output_byte(){
 
   local byte=$1
+  local no_update=$2
   local v
 
-  GZIP_update_crc32 ${byte} 
+  if [ "$no_update" = "" ]; then
+    no_update=0
+  fi
+
   printf -v v "%o" ${byte}
   printf "\\$v"
-  ((GZIP_total_bytes_written++)) 
- 
+  if [ $no_update -eq 0 ]; then
+    GZIP_update_crc32 ${byte} 
+    ((GZIP_total_bytes_written++)) 
+  fi
 }
 
 
@@ -1056,23 +1062,23 @@ GZIP_decode_backpointer(){
 GZIP_write_header(){
 
   # signature
-  GZIP_put_byte 31
-  GZIP_put_byte 139
+  GZIP_output_byte 31 1
+  GZIP_output_byte 139 1
   # compression method deflate
-  GZIP_put_byte 8
+  GZIP_output_byte 8 1
   # flags
-  GZIP_put_byte 0
+  GZIP_output_byte 0 1
   
   # timestamp
   printf -v timestamp '%(%s)T' -1
-  GZIP_put_byte $(( timestamp & 0xff ))
-  GZIP_put_byte $(( (timestamp & (0xff << 8)) >> 8))
-  GZIP_put_byte $(( (timestamp & (0xff << 16)) >> 16))
-  GZIP_put_byte $(( (timestamp & (0xff << 24)) >> 24))
+  GZIP_output_byte $(( timestamp & 0xff )) 1
+  GZIP_output_byte $(( (timestamp & (0xff << 8)) >> 8)) 1
+  GZIP_output_byte $(( (timestamp & (0xff << 16)) >> 16)) 1
+  GZIP_output_byte $(( (timestamp & (0xff << 24)) >> 24)) 1
 
   # TODO: can we always put 0 here safely?
-  GZIP_put_byte 0    # extra flags (2 == maximum compresison, 4 == fastest algorithm)
-  GZIP_put_byte 3    # OS: unix
+  GZIP_output_byte 0 1   # extra flags (2 == maximum compresison, 4 == fastest algorithm)
+  GZIP_output_byte 3 1   # OS: unix
 }
 
 
@@ -1081,17 +1087,17 @@ GZIP_write_trailer(){
   local size
 
   # CRC: 4 bytes
-  GZIP_put_byte $(( GZIP_crc32 & 0xff ))
-  GZIP_put_byte $(( (GZIP_crc32 & (0xff << 8)) >> 8 ))
-  GZIP_put_byte $(( (GZIP_crc32 & (0xff << 16)) >> 16 ))
-  GZIP_put_byte $(( (GZIP_crc32 & (0xff << 24)) >> 24 ))
+  GZIP_output_byte $(( GZIP_crc32 & 0xff )) 1
+  GZIP_output_byte $(( (GZIP_crc32 & (0xff << 8)) >> 8 )) 1
+  GZIP_output_byte $(( (GZIP_crc32 & (0xff << 16)) >> 16 )) 1
+  GZIP_output_byte $(( (GZIP_crc32 & (0xff << 24)) >> 24 )) 1
 
   # size: 4 bytes
   size=$(( GZIP_total_bytes_read % (2 ** 32) ))
-  GZIP_put_byte $(( size & 0xff ))
-  GZIP_put_byte $(( (size & (0xff << 8)) >> 8 ))
-  GZIP_put_byte $(( (size & (0xff << 16)) >> 16 ))
-  GZIP_put_byte $(( (size & (0xff << 24)) >> 24 ))
+  GZIP_output_byte $(( size & 0xff )) 1
+  GZIP_output_byte $(( (size & (0xff << 8)) >> 8 )) 1
+  GZIP_output_byte $(( (size & (0xff << 16)) >> 16 )) 1
+  GZIP_output_byte $(( (size & (0xff << 24)) >> 24 )) 1
 }
 
 
@@ -1102,23 +1108,18 @@ GZIP_deflate_uncompressed(){
   
   # length (2 + 2 of one's complement)
   len=$GZIP_bytes_read
-  GZIP_put_byte $(( len & 0xff ))
-  GZIP_put_byte $(( (len & 0xff00) >> 8 ))
+  GZIP_output_byte $(( len & 0xff )) 1
+  GZIP_output_byte $(( (len & 0xff00) >> 8 )) 1
   
-  GZIP_put_byte $(( ~(len & 0xff) & 0xff ))
-  GZIP_put_byte $(( (~(len & 0xff00) & 0xff00) >> 8))
+  GZIP_output_byte $(( ~(len & 0xff) & 0xff )) 1
+  GZIP_output_byte $(( (~(len & 0xff00) & 0xff00) >> 8)) 1
   
   # write data verbatim
   for ((i = 0; i < GZIP_bytes_read; i++)); do
-    GZIP_put_byte ${GZIP_input[$i]}
+    GZIP_output_byte ${GZIP_input[$i]} 1
     GZIP_update_crc32 ${GZIP_input[$i]}
   done
   
-}
-
-GZIP_put_byte(){
-  local byte
-  printf -v byte %o "$1"; printf "\\$byte"
 }
 
 # input: always a bitstring
@@ -1131,7 +1132,7 @@ GZIP_put_bit(){
     GZIP_byte=$(( GZIP_byte | (${bitstring:$i:1} << GZIP_bit_ptr) ))
     if [ $GZIP_bit_ptr -ge 7 ]; then
       GZIP_bit_ptr=-1
-      GZIP_put_byte $GZIP_byte
+      GZIP_output_byte $GZIP_byte 1
       GZIP_byte=0
     fi
   done
@@ -1148,7 +1149,7 @@ GZIP_put_bit_inv(){
     GZIP_byte=$(( GZIP_byte | (${bitstring:$i:1} << GZIP_bit_ptr) ))
     if [ $GZIP_bit_ptr -ge 7 ]; then
       GZIP_bit_ptr=-1
-      GZIP_put_byte $GZIP_byte
+      GZIP_output_byte $GZIP_byte 1
       GZIP_byte=0
     fi
   done
